@@ -2,11 +2,16 @@
   "version": 2,
   "builds": [
     {
-      "src": "Unyconnect_OnePage_Luxe.html",
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/Unyconnect_OnePage_Luxe.html" }
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/Unyconnect_OnePage_Luxe.html", "dest": "/index.html" }
   ]
 }
