@@ -104,35 +104,16 @@
         /* Header */
         .header {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
             margin-bottom: 40px;
-            padding-bottom: 25px;
+            padding: 30px 40px;
             border-bottom: 1px solid rgba(100, 200, 232, 0.15);
         }
         
         .header-logo-main {
-            height: 80px;
-            margin-bottom: 15px;
-        }
-        
-        .logo-section {
-            display: flex;
-            align-items: center;
-            gap: 18px;
-        }
-        
-        .logo-section img {
-            height: 70px;
-            border-radius: 50%;
-            transition: all 0.4s ease;
-            filter: drop-shadow(0 0 15px rgba(100, 200, 232, 0.3));
-            border: 3px solid rgba(100, 200, 232, 0.3);
-        }
-        
-        .logo-section img:hover {
-            transform: scale(1.1) rotate(5deg);
-            filter: drop-shadow(0 0 25px rgba(100, 200, 232, 0.5));
+            height: 90px;
+            margin-bottom: 10px;
         }
         
         .brand {
@@ -778,10 +759,7 @@
         <!-- Header -->
         <header class="header">
             <img src="adn_logo_header.png" alt="ADN Entreprise" class="header-logo-main">
-            <div class="logo-section">
-                <img src="adn_logo_rond.jpg" alt="ADN">
-                <span class="brand">ADN Entreprise</span>
-            </div>
+            <span class="brand">ADN Entreprise</span>
         </header>
         
         <!-- Hero -->
