@@ -111,6 +111,11 @@
             border-bottom: 1px solid rgba(100, 200, 232, 0.15);
         }
         
+        .header-logo-main {
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        
         .logo-section {
             display: flex;
             align-items: center;
@@ -118,10 +123,11 @@
         }
         
         .logo-section img {
-            height: 55px;
+            height: 70px;
             border-radius: 50%;
             transition: all 0.4s ease;
             filter: drop-shadow(0 0 15px rgba(100, 200, 232, 0.3));
+            border: 3px solid rgba(100, 200, 232, 0.3);
         }
         
         .logo-section img:hover {
@@ -725,10 +731,12 @@
         }
         
         .footer img {
-            height: 35px;
-            opacity: 0.6;
-            margin-bottom: 10px;
+            height: 90px;
+            margin-bottom: 15px;
             transition: all 0.3s ease;
+            border: 4px solid rgba(100, 200, 232, 0.4);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(100, 200, 232, 0.3);
         }
         
         .footer img:hover {
@@ -769,6 +777,7 @@
     <div class="page">
         <!-- Header -->
         <header class="header">
+            <img src="adn_logo_header.png" alt="ADN Entreprise" class="header-logo-main">
             <div class="logo-section">
                 <img src="adn_logo_rond.jpg" alt="ADN">
                 <span class="brand">ADN Entreprise</span>
